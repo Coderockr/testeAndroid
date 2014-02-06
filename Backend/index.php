@@ -26,7 +26,7 @@ $app->before(function (Request $request) use ($app) {
     }
 });
 
-$app->get('/', function() use ($app) {
+$app->get('/brand', function() use ($app) {
     $result = array(
         0 => array(
             'id' => 1,
