@@ -1,0 +1,9 @@
+{
+    "require": {
+        "silex/silex": "1.0.*@dev"
+    },
+    "minimum-stability": "dev",
+    "name": "testeAndroid",
+    "description": "Teste Android",
+    "license": "proprietary"
+}
