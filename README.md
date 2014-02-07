@@ -25,12 +25,13 @@ Authorization: 85e4a615f62c711d3aac0e7def5b4903
 O resultado da requisição é no formato JSON, conforme o exemplo abaixo:
 
 ```
- [
+[
   {
     "id": 1,
     "created": "2012-06-20T10:55:27-0300",
     "image": "http://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Apple-logo.svg/125px-Apple-logo.svg.png",
-    "description": "Apple",
+    "name": "Apple",
+    "description": "Apple Inc. é uma empresa multinacional norte-americana que tem o objetivo de projetar e comercializar produtos eletrônicos de consumo, software de computador e computadores pessoais",
     "product_collection": [
       {
         "id": 1,
@@ -56,7 +57,8 @@ O resultado da requisição é no formato JSON, conforme o exemplo abaixo:
     "id": 2,
     "created": "2012-06-20T10:56:05-0300",
     "image": "http://images.dailytech.com/nimage/samsung-logo.jpg",
-    "description": "Samsung",
+    "name": "Samsung",
+    "description": "O grupo Samsung é uma corporação multinacional que atua em diversos ramos da área de tecnologia da informação com sede em Seul, Coreia do Sul",
     "product_collection": [
       {
         "id": 3,
@@ -78,7 +80,7 @@ O resultado da requisição é no formato JSON, conforme o exemplo abaixo:
       }
     ]
   }
-]
+] 
 ```
 
 ## O que será avaliado
