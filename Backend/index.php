@@ -32,7 +32,8 @@ $app->get('/brand', function() use ($app) {
             'id' => 1,
             'created' => "2012-06-20T10:55:27-0300",
             "image" => "http://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Apple-logo.svg/125px-Apple-logo.svg.png",
-            "description" => "Apple",
+            "name" => "Apple",
+            "description" => "Apple Inc. é uma empresa multinacional norte-americana que tem o objetivo de projetar e comercializar produtos eletrônicos de consumo, software de computador e computadores pessoais",
             "product_collection" => array(
                 0 => array(
                     "id" => 1,
@@ -58,7 +59,8 @@ $app->get('/brand', function() use ($app) {
             'id' => 2,
             'created' => "2012-06-20T10:56:05-0300",
             "image" => "http://images.dailytech.com/nimage/samsung-logo.jpg",
-            "description" => "Samsung",
+            "name" => "Samsung",
+            "description" => "O grupo Samsung é uma corporação multinacional que atua em diversos ramos da área de tecnologia da informação com sede em Seul, Coreia do Sul",
             "product_collection" => array(
                 0 => array(
                     "id" => 3,
