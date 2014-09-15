@@ -13,7 +13,7 @@ O objetivo deste teste é verificar os conhecimentos dos candidatos a vaga de [d
 
 ### REST Service
 
-URL: http://soa.coderockr.com/brand
+URL: http://testeandroid.apiary.io/brand
 
 Cabeçalhos necessários: 
 
@@ -93,6 +93,10 @@ O resultado da requisição é no formato JSON, conforme o exemplo abaixo:
 - Histórico de commits no Github
 - Organização das classes e estruturas criadas
 - Pontos extra serão ganhos caso o aplicativo tenha testes unitários
+
+## OBS
+
+O diretório Backend não precisa ser considerado no teste, está aqui apenas como exemplo caso o desenvolvedor também queira brincar com PHP ou criar um backend próprio para os testes. 
 
 ## Dúvidas
 
